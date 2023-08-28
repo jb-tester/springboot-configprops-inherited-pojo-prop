@@ -3,7 +3,7 @@ package com.example.springbootconfigpropsinheritedpojoprop;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 @ConfigurationProperties(prefix = "my.props")
 public class ConfigPropsWithInheritedPojoProps {
 	private String property1;
