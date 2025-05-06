@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "my.props4.another-thing",
+      "type": "java.lang.String",
+      "description": "Description for my.props4.another-thing."
+    },
+    {
+      "name": "my.props4.something",
+      "type": "java.lang.String",
+      "description": "Description for my.props4.something."
+    }
+  ] }
