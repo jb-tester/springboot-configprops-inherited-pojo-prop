@@ -3,8 +3,15 @@ package com.example.springbootconfigpropsinheritedpojoprop.inheritedConfigProper
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
 public class ParentProperties {
+
+    /**
+     * String-type property defined in the ParentProperties class
+     */
     private String parentProp;
 
+    /**
+     * POJO-type property defined in the ParentProperties class
+     */
     @NestedConfigurationProperty
     private SomePojo parentPojoProp;
 

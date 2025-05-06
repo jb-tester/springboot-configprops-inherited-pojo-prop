@@ -5,8 +5,14 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
 @ConfigurationProperties(prefix = "my.props3")
 public class ChildPropertiesConstructorBinding extends ParentPropertiesConstructorBinding {
-
+    /**
+     * String-type property defined in the ChildPropertiesConstructorBinding class
+     */
     private final String childProp;
+
+    /**
+     * POJO-type property defined in the ChildPropertiesConstructorBinding class
+     */
     @NestedConfigurationProperty
     private final SomePojo childPojoProp;
 

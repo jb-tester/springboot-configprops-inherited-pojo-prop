@@ -2,6 +2,10 @@ package com.example.springbootconfigpropsinheritedpojoprop.inheritedConfigProper
 
 
 public class SomePojo {
+
+    /**
+     * String-type property defined in the nested POJO class
+     */
     String pojoProp;
 
     public String getPojoProp() {
